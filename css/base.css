@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    color: #4B4B4B;
+    background-color: #FBFBFB;
+    line-height: 1.5;
+    font-family: "Noto Sans TC", "Noto Sans", sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+.blue {
+    color: #0027D5;
+}
+
+.black {
+    color: black;
+}
+
+.fs-1 {
+    font-size: 16px;
+}
+
+.fs-2 {
+    font-size: 20px;
+}
+
+.fs-3 {
+    font-size: 24px;
+}
+
+.fs-4 {
+    font-size: 28px;
+}
+
+.fs-5 {
+    font-size: 64px;
+}
+
+.fs-6 {
+    font-size: 120px;
+}
+
+.fw-medium {
+    font-weight: 500;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+.fw-black {
+    font-weight: 900;
+}
+
+.index-title {
+    font-size: 64px;
+    margin-bottom: 24px;
+    color: black;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .index-title {
+        font-size: 48px;
+
+    }
+}

@@ -1,0 +1,449 @@
+/*自我介紹*/
+.about {
+    display: flex;
+    justify-content: end;
+}
+
+.about__desc {
+    margin-top: -220px;
+    margin-right: 80px;
+    background: #FFFFFF;
+    width: 1077px;
+    padding: 80px 40px;
+    position: relative;
+}
+
+.about__desc_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        display: flex;
+        justify-content: center;
+        margin: 0 12px;
+    }
+
+    .about__desc {
+        margin: 0;
+        width: 351px;
+        padding: 40px 24px;
+    }
+}
+
+/*服務內容*/
+
+.service {
+    max-width: 1296px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 64px
+}
+
+.service .index-title {
+    margin-bottom: 0;
+}
+
+.service_content {
+    max-width: 1076px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.service_content_vector {
+    width: 30px;
+    height: 2.5px;
+    display: block;
+    background-color: #0027D5;
+    margin-bottom: 18.75px;
+    border-radius: 50px;
+}
+
+.service_content_text {
+    margin-left: -40px;
+    background: #FFFFFF;
+    width: 480px;
+    padding: 24px;
+    text-align: justify;
+}
+
+.service_content:not(.row-r) .service_content_text {
+    margin-left: -40px;
+}
+
+.service_content.row-r {
+    flex-direction: row-reverse;
+}
+
+.service_content.row-r .service_content_text {
+    margin-right: -40px;
+}
+
+.service_content_text {
+    position: relative;
+    z-index: 1;
+}
+
+.cta {
+    max-width: 1296px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 32px auto;
+    align-items: center;
+    gap: 8px;
+    transition: transform 0.3s ease;
+}
+
+.cta:hover {
+    color: #0027D5;
+    transform: translate(6px, 5px);
+}
+
+@media screen and (max-width: 768px) {
+    .service {
+        max-width: 100%;
+        margin: 0 12px;
+        gap: 32px
+    }
+
+    .service_content {
+        max-width: 100%;
+        flex-direction: column;
+
+    }
+
+    .service .index-title {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .service_content_text {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .service_content:not(.row-r) .service_content_text {
+        margin-left: 0px;
+    }
+
+    .service_content.row-r .service_content_text {
+        margin-right: -0px;
+    }
+
+    .service_content.row-r {
+        flex-direction: column;
+    }
+
+    .cta {
+        max-width: 100%;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        margin: 32px 12px;
+
+    }
+}
+
+/*部落格*/
+.index-blog {
+    max-width: 1432px;
+    margin: 80px auto;
+}
+
+@media screen and (max-width: 768px) {
+    .index-blog .blog {
+        max-width: 100%;
+    }
+
+    .index-blog {
+        padding: 65px 12px;
+    }
+
+}
+
+/*職涯諮詢成功案例*/
+.success-cases {
+    max-width: 1296px;
+    margin: 80px auto;
+
+}
+
+.success-cases .index-title {
+    display: flex;
+}
+
+.success-cases-content {
+    display: flex;
+    margin-bottom: 40px;
+
+}
+
+.img-box {
+    background-color: #EDEDED;
+    padding: 24px;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 45%;
+    gap: 24px;
+}
+
+.text-card {
+    width: 526px;
+    background: #FFFFFF;
+    padding: 80px 40px;
+    margin-left: -170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+.text-card-bottom {
+    background-color: #F5F5F5;
+    padding: 80px 40px;
+    margin-left: 24px;
+    margin-top: -50px;
+    width: 526px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+.text-card-bottom .btn-w {
+    width: 128px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .success-cases {
+        max-width: 100%;
+        margin: 64px 12px;
+    }
+
+    .success-cases .index-title {
+        flex-direction: column;
+    }
+
+    .success-cases-content {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .img-box {
+        background-color: #EDEDED;
+        padding: 24px;
+    }
+
+    .text-box {
+        flex: 1 1 100%;
+        gap: 12px;
+    }
+
+    .text-card {
+        width: 100%;
+        padding: 40px 24px;
+        margin-left: 0;
+    }
+
+    .text-card-bottom {
+        padding: 40px 24px;
+        margin: 0;
+        width: 100%;
+        gap: 24px;
+    }
+
+}
+
+
+/*職涯諮詢成功案例-經驗談*/
+.success-stories {
+    background-color: #F5F5F5;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+
+.success-stories-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.success-stories-card .title {
+    margin-bottom: 8px;
+}
+
+.success-stories-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.hr {
+    width: 100%;
+    border-top: 1px solid #000000;
+    margin: 0 auto;
+}
+
+.success-stories .blog-read a {
+    width: 161px;
+}
+
+@media screen and (max-width: 768px) {
+    .success-stories {
+        flex-direction: column;
+        gap: 24px;
+    }
+}
+
+/*訂閱電子報*/
+.newsletter {
+    display: flex;
+    flex: 1;
+}
+
+.newsletter-content {
+    background-image: url("../img/index/Hero Section2.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 172px 80px;
+}
+
+.newsletter .card {
+    background-color: #FFFFFF;
+    width: 800px;
+    padding: 80px;
+}
+
+.newsletter .index-title {
+    margin-bottom: 16px;
+
+}
+
+.newsletter input {
+    background: #F1F1F1;
+    padding: 8px 16px;
+    width: 640px;
+    height: 46px;
+    border: none;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 24px 0;
+}
+
+
+.newsletter input::placeholder {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.newsletter .btn-w {
+    width: 96px;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .newsletter {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .newsletter-content {
+        flex-direction: column;
+        padding: 12px;
+    }
+
+    .newsletter .card {
+        width: 100%;
+        padding: 40px 24px;
+    }
+
+    .newsletter input {
+        width: 100%;
+    }
+}
+
+/*社群*/
+.address {
+    max-width: 1296px;
+    margin: 80px auto;
+}
+
+.address li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    padding: 16px;
+    color: #000000;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.address .text {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+
+.address .mail-line {
+    text-decoration: underline;
+}
+
+@media screen and (max-width:768px) {
+    .address {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 64px 12px;
+    }
+
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+
+    .text>div {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

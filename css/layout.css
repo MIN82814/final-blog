@@ -1,0 +1,204 @@
+/*網頁內容*/
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.border-b-hr {
+    border-bottom: 1px solid black;
+}
+
+.border-t-hr {
+    border-top: 1px solid black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 24px 80px;
+    gap: 0 40px;
+}
+
+nav ul a {
+    color: black;
+}
+
+nav ul a:hover {
+    color: #0027D5;
+}
+
+
+.header {
+    display: flex;
+    flex: 1;
+}
+
+
+.header-content {
+    background-image: url("../img/index/Hero Section2.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .header-content {
+        flex-direction: column;
+        padding: 24px;
+    }
+
+    .fs-6 {
+        font-size: 52px;
+    }
+
+    .header-title {
+        margin-bottom: 12px;
+    }
+}
+
+/*banner區塊*/
+.banner {
+    display: flex;
+    flex: 1;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 24px;
+    width: 636px;
+}
+
+@media screen and (max-width:768px) {
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-content {
+        width: 100%;
+        padding: 48px 12px;
+    }
+}
+
+
+
+
+/*頁碼*/
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 8px 20px;
+    gap: 12px;
+    margin: 0 auto;
+    width: 328px;
+    background-color: #fff;
+    border-radius: 40px;
+
+}
+
+.pagination a {
+    padding: 0 8px;
+    border-radius: 6px;
+    color: #4B4B4B;
+    display: inline-flex;
+    /* 讓文字與圖示可置中 */
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+
+}
+
+.pagination a:hover {
+    color: #0027d5;
+    background: #d6e6ff;
+}
+
+.pagination a:active {
+    transform: scale(1.5);
+    color: #0027d5;
+}
+
+
+/*footer*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 312px;
+    border-top: 1px solid black;
+}
+
+
+.mail {
+    font-size: 32px;
+}
+
+.mail:hover {
+    color: #0027D5;
+}
+
+.social {
+    display: flex;
+    width: 236px;
+    height: 44px;
+}
+
+.social img {
+    width: 44px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.social li {
+    transition: transform 0.3s ease;
+}
+
+.social li:hover {
+    transform: translate(6px, 5px);
+}
+
+
+@media screen and (max-width:768px) {
+    .footer {
+        display: none;
+    }
+}
+
+/*版權*/
+.copyright {
+    display: block;
+    text-align: center;
+    padding: 24px 0;
+    background-color: #fff;
+
+}
+
+/*藍色按鈕*/
+.blue-btn a {
+    border-radius: 40px;
+    border: 1px solid #0027D5;
+    padding: 8px 16px;
+    color: #0027D5;
+    white-space: nowrap;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.blue-btn a:hover {
+    background-color: #0027D5;
+    border: 1px solid transparent;
+    color: white;
+}
