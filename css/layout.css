@@ -53,7 +53,7 @@ nav ul a:hover {
     flex-direction: column;
     justify-content: center;
     padding-left: 80px;
-    flex: 1 1 50%;
+    flex: 1;
 }
 
 @media screen and (max-width:768px) {
@@ -75,6 +75,7 @@ nav ul a:hover {
     .header-content {
         flex-direction: column;
         padding: 24px;
+
     }
 
     .fs-6 {
