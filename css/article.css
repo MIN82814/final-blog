@@ -25,14 +25,9 @@
 }
 
 .blog-content-img {
-    overflow: hidden;
+    object-position: left;
 }
 
-.blog-content-img img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
 
 
 .blog-content-item .title {
@@ -69,6 +64,17 @@
 }
 
 @media screen and (max-width: 768px) {
+    .blog-content-img {
+        aspect-ratio: 1/1;
+    }
+
+    .blog-content-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: left;
+    }
+
 
     .blog-content-warp {
         max-width: 100%;
