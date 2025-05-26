@@ -9,9 +9,7 @@
     border-bottom: 1px solid black;
 }
 
-.border-t-hr {
-    border-top: 1px solid black;
-}
+
 
 nav ul {
     display: flex;
@@ -94,6 +92,12 @@ nav ul a:hover {
     flex: 1;
 }
 
+.banner-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .banner-content {
     display: flex;
     flex-direction: column;
@@ -102,9 +106,22 @@ nav ul a:hover {
     width: 636px;
 }
 
+.banner-img,
+.banner-content {
+    width: 50%;
+
+}
+
+
 @media screen and (max-width:768px) {
     .banner {
         flex-direction: column;
+    }
+
+    .banner-img,
+    .banner-content {
+        width: 100%;
+
     }
 
     .banner-content {

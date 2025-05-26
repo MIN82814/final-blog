@@ -24,9 +24,6 @@
     margin-bottom: 48px;
 }
 
-.blog-content-img {
-    object-position: left;
-}
 
 
 
@@ -44,16 +41,17 @@
     padding-left: 1.2em;
 }
 
-.blog-content-item a {
+.blog-content-article a {
     color: #0027D5;
+    text-decoration: underline;
 }
 
-.blog-content-item a:hover {
+.blog-content-article a:hover {
     color: #3b5fff;
 }
 
 .li-decimal {
-    list-style: decimal;
+    list-style: disc;
     padding-left: 1.2em;
 }
 
@@ -64,6 +62,8 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    /*
     .blog-content-img {
         aspect-ratio: 1/1;
     }
@@ -74,6 +74,7 @@
         object-fit: cover;
         object-position: left;
     }
+*/
 
 
     .blog-content-warp {
