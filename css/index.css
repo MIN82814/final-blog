@@ -1,8 +1,6 @@
 /*自我介紹*/
 .about {
     display: flex;
-    justify-content: end;
-
 }
 
 .about__desc {
@@ -11,8 +9,8 @@
     max-width: 1077px;
     margin-top: -11%;
     width: 100%;
-    margin-right: 2%;
-    margin-left: 38%;
+    margin-left: 39%;
+    margin-right: 1.5%;
     background: #FFFFFF;
     padding: 3% 2%;
     position: relative;
