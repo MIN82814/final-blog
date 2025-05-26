@@ -50,7 +50,6 @@
 
 .blog-title {
     font-weight: 700;
-    color: #000000;
     padding-bottom: 8px;
 }
 
@@ -60,6 +59,7 @@
     -webkit-line-clamp: 2;
     overflow: hidden;
     margin-bottom: 16px;
+    color: #4B4B4B;
 }
 
 .blog-read a {

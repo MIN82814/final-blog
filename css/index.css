@@ -153,12 +153,17 @@
         width: 100%;
     }
 
+    .service_content_text p {
+        color: #4B4B4B;
+    }
+
     .service_content:not(.row-r) .service_content_text {
         margin-left: 0px;
     }
 
     .service_content.row-r .service_content_text {
         margin-right: -0px;
+
     }
 
     .service_content.row-r {
@@ -320,6 +325,7 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 8px;
+    color: #4B4B4B;
 }
 
 .hr {
@@ -448,7 +454,6 @@
     font-weight: 500;
     border-bottom: 1px solid black;
     padding: 16px;
-    color: #000000;
     transition: transform 0.3s ease;
 }
 
