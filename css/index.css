@@ -3,19 +3,17 @@
     display: flex;
     justify-content: end;
 
-
-
 }
 
 .about__desc {
+    display: flex;
+    justify-content: center;
     max-width: 1077px;
+    margin-top: -11%;
     width: 100%;
-    margin-top: -220px;
-    margin-right: 80px;
-    margin-left: 763px;
+    margin-right: 5%;
     background: #FFFFFF;
-    width: 100%;
-    padding: 80px 40px;
+    padding: 4% 2.5%;
     position: relative;
 }
 
