@@ -75,6 +75,7 @@ nav ul a:hover {
     .header-content {
         flex-direction: column;
         padding: 24px;
+        padding-bottom: 200px;
 
     }
 
