@@ -1,14 +1,11 @@
-/*網頁內容*/
+/*網頁外框*/
 .container {
     max-width: 1920px;
     margin: 0 auto;
     width: 100%;
 }
 
-
-
-
-
+/*導覽列*/
 nav ul {
     display: flex;
     justify-content: center;
@@ -24,7 +21,7 @@ nav ul a:hover {
     color: #0027D5;
 }
 
-
+/*刊頭*/
 .header {
     display: flex;
     flex: 1;
@@ -71,16 +68,12 @@ nav ul a:hover {
     .header-content {
         flex-direction: column;
         padding: 24px;
+    }
+
+    .header-bg-pb {
         padding-bottom: 200px;
     }
 
-    .blog-header {
-        padding-bottom: 0px;
-    }
-
-    .fs-6 {
-        font-size: 52px;
-    }
 
     .header-title {
         margin-bottom: 12px;
