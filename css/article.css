@@ -10,7 +10,6 @@
 }
 
 .blog-content-title {
-    font-size: 28px;
     color: #0027D5;
     font-weight: 700;
 }
@@ -29,7 +28,6 @@
 
 .blog-content-item .title {
     margin-bottom: 12px;
-    font-size: 20px;
 }
 
 .blog-content-item .text {

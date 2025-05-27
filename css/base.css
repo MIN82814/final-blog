@@ -25,6 +25,7 @@ a {
     border-bottom: 1px solid black;
 }
 
+/*
 .fs-1 {
     font-size: 16px;
 }
@@ -49,7 +50,7 @@ a {
     font-size: clamp(3.25rem, 6vw, 7.5rem);
 }
 
-
+*/
 .fw-medium {
     font-weight: 500;
 }
@@ -63,9 +64,40 @@ a {
 }
 
 .index-title {
-    font-size: 64px;
     margin-bottom: 24px;
-    font-weight: 700;
+}
+
+.fs-120 {
+    font-size: clamp(3.25rem, 6vw, 7.5rem);
+}
+
+.fs-64 {
+    font-size: 64px;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.fs-28 {
+    font-size: 28px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.about-desc-fs,
+.address-media {
+    font-size: 28px;
 }
 
 .mb-24 {
@@ -74,9 +106,20 @@ a {
 
 
 @media screen and (max-width: 768px) {
-    .index-title {
+
+    /* .index-title {
+        font-size: 48px;
+    }*/
+    .fs-64 {
         font-size: 48px;
     }
 
+    .fs-32 {
+        font-size: 24px;
+    }
 
+    .about-desc-fs,
+    .address-media {
+        font-size: 24px;
+    }
 }

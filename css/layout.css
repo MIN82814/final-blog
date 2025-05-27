@@ -139,7 +139,6 @@ nav ul a:hover {
 .mail {
     font-size: clamp(1rem, 6vw, 2rem);
     width: 100%;
-    /* 限制最大寬度以避免超出 */
     flex: 1;
 }
 
