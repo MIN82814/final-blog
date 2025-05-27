@@ -65,21 +65,12 @@
 
 }
 
-.service_content_vector {
-    width: 30px;
-    height: 2.5px;
-    display: block;
-    background-color: #0027D5;
-    margin-bottom: 18.75px;
-
-}
-
-.service_content .card-title {
+.card_vector {
     position: relative;
     padding-top: 20px;
 }
 
-.service_content .card-title::before {
+.card_vector::before {
     content: "";
     position: absolute;
     top: 0%;
