@@ -21,6 +21,10 @@ a {
     color: #4B4B4B;
 }
 
+.border-b-hr {
+    border-bottom: 1px solid black;
+}
+
 .fs-1 {
     font-size: 16px;
 }

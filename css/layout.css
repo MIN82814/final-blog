@@ -5,9 +5,7 @@
     width: 100%;
 }
 
-.border-b-hr {
-    border-bottom: 1px solid black;
-}
+
 
 
 
@@ -133,53 +131,22 @@ nav ul a:hover {
 
 
 
-/*頁碼*/
-.pagination {
-    display: flex;
-    justify-content: center;
-    padding: 8px 20px;
-    gap: 12px;
-    margin: 0 auto;
-    width: 328px;
-    background-color: #fff;
-    border-radius: 40px;
-
-}
-
-.pagination a {
-    padding: 0 8px;
-    border-radius: 6px;
-    color: #4B4B4B;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 30px;
-
-}
-
-.pagination a:hover {
-    color: #0027d5;
-    background: #d6e6ff;
-}
-
-.pagination a:active {
-    transform: scale(1.5);
-    color: #0027d5;
-}
-
-
 /*footer*/
 .footer {
     display: flex;
     justify-content: space-between;
-    padding: 80px 312px;
-    border-top: 1px solid black;
+    flex: 1;
+    max-width: 1296px;
+    margin: 80px auto;
 }
-
 
 .mail {
-    font-size: 32px;
+    font-size: clamp(1rem, 6vw, 2rem);
+    width: 100%;
+    /* 限制最大寬度以避免超出 */
+    flex: 1;
 }
+
 
 .mail:hover {
     color: #0027D5;
@@ -187,14 +154,14 @@ nav ul a:hover {
 
 .social {
     display: flex;
-    width: 236px;
-    height: 44px;
+    max-width: 236px;
+    width: 100%;
 }
 
 .social img {
     width: 44px;
     height: auto;
-    flex-shrink: 0;
+
 }
 
 .social li {

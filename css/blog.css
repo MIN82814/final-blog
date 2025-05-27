@@ -119,3 +119,37 @@
         max-width: 100%;
     }
 }
+
+/*頁碼*/
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 8px 20px;
+    gap: 12px;
+    margin: 0 auto;
+    width: 328px;
+    background-color: #fff;
+    border-radius: 40px;
+
+}
+
+.pagination a {
+    padding: 0 8px;
+    border-radius: 6px;
+    color: #4B4B4B;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+
+}
+
+.pagination a:hover {
+    color: #0027d5;
+    background: #d6e6ff;
+}
+
+.pagination a:active {
+    transform: scale(1.5);
+    color: #0027d5;
+}
