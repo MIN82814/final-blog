@@ -95,8 +95,12 @@ a {
     font-size: 16px;
 }
 
-.about-desc-fs,
-.address-media {
+
+.address-media li {
+    font-size: 28px;
+}
+
+.about-desc-fs p {
     font-size: 28px;
 }
 
@@ -118,8 +122,11 @@ a {
         font-size: 24px;
     }
 
-    .about-desc-fs,
-    .address-media {
+    .address-media li {
+        font-size: 24px;
+    }
+
+    .about-desc-fs p {
         font-size: 24px;
     }
 }
