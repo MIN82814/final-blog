@@ -28,32 +28,37 @@
 
 
 /*blog文章*/
-.blog {
+.card {
     display: flex;
     flex-wrap: wrap;
     margin: 40px auto;
     gap: 80px 24px;
 }
 
-.blog .content {
+.card-content {
     margin: 16px 0;
 }
 
-.blog li {
+.card li {
     flex: 1 1 calc((100% - 48px) / 3);
     max-width: calc((100% - 48px) / 3);
 }
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
 
 .date {
     margin-bottom: 4px;
 }
 
-.blog-title {
+.card-title {
     font-weight: 700;
     padding-bottom: 8px;
 }
 
-.blog-text {
+.card-text {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
@@ -62,7 +67,7 @@
     color: #4B4B4B;
 }
 
-.blog-read a {
+.card-read a {
     border-radius: 40px;
     border: 1px solid #000000;
     padding: 8px 16px;
@@ -73,27 +78,27 @@
     transition: all 0.3s ease;
 }
 
-.blog-read a:hover {
+.card-read a:hover {
     background-color: #000000;
     border: 1px solid transparent;
     color: white;
 }
 
-.blog-tag {
+.card-tag {
     display: flex;
     align-items: center;
     margin-bottom: 8px;
 }
 
-.blog-tag a {
+.card-tag a {
     color: #0027D5;
 }
 
-.blog-tag a:hover {
+.card-tag a:hover {
     color: #3b5fff;
 }
 
-.blog-tag .badge {
+.card-tag .badge {
     padding: 6px 12px;
     display: inline-block;
     border-radius: 40px;
@@ -104,17 +109,17 @@
 }
 
 @media screen and (max-width:768px) {
-    .blog-content {
+    .card-content {
         width: 100%;
         padding: 0 12px;
     }
 
-    .blog {
+    .card{
         gap: 40px 0;
 
     }
 
-    .blog li {
+    .card li {
         flex: 0 0 100%;
         max-width: 100%;
     }

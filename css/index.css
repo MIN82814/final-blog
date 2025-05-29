@@ -64,7 +64,7 @@
 
 }
 
-.card_vector {
+ .card_vector {
     position: relative;
     padding-top: 20px;
 }
@@ -170,11 +170,73 @@
     }
 }
 
-/*部落格*/
+/*文章輪播*/
 .index-blog {
-    max-width: 1432px;
-    margin: 80px auto;
+    max-width: 1296px;
+    margin: 0 auto;
 }
+
+.swiper {
+    width: 100%;
+  }
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    display: none;
+  }
+  
+  .swiper-button-next i,
+  .swiper-button-prev i {
+    font-size: 16px;
+    color:#fff;
+  }
+  
+  .swiper-button-prev,
+  .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #0027D5;
+    border-radius: 50%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    color:#fff;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .swiper-wrapper-area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      top: 100%;
+      width: 44px;
+      height: 44px;
+
+    }
+
+      .swiper-button-prev {
+        left: 70%;
+      }
+      
+      .swiper-button-next {
+        right: 0;
+      }
+      
+    
+
+  }
 
 @media screen and (max-width: 768px) {
     .index-blog .blog {
