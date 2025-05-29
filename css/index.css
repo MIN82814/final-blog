@@ -172,12 +172,12 @@
 
 /*文章輪播*/
 .index-blog {
-    max-width: 1296px;
-    margin: 0 auto;
+    max-width: 1432px;
+    margin: 80px auto;
 }
 
 .swiper {
-    width: 100%;
+    width: 90%;
   }
   .swiper-button-prev::after,
   .swiper-button-next::after {
@@ -187,7 +187,6 @@
   .swiper-button-next i,
   .swiper-button-prev i {
     font-size: 16px;
-    color:#fff;
   }
   
   .swiper-button-prev,
@@ -215,9 +214,21 @@
     justify-content: center;
     overflow: hidden;
   }
+  .swiper-button-prev {
+    left: -10px;
+  }
+  
+  .swiper-button-next {
+    right: 0;
+  }
 
   @media screen and (max-width: 768px) {
-
+    .index-blog {
+        margin: 0 auto;
+    }
+    .swiper {
+        width: 100%;
+      }
     .swiper-button-prev,
     .swiper-button-next {
       top: 100%;
@@ -383,12 +394,27 @@
 .hr {
     width: 100%;
     border-top: 1px solid #000000;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
-.success-stories .blog-read a {
+.success-card a {
     width: 161px;
+    border-radius: 40px;
+    border: 1px solid #000000;
+    padding: 8px 16px;
+    color: #4B4B4B;
+    white-space: nowrap;
+    text-align: center;
+    transition: all 0.3s ease;
 }
+
+.success-card a:hover {
+    background-color: #000000;
+    border: 1px solid transparent;
+    color: white;
+}
+
+
 
 @media screen and (max-width: 768px) {
     .success-stories {
@@ -426,10 +452,13 @@
 
 }
 
-.newsletter .card {
+
+
+.newsletter-card {
     background-color: #FFFFFF;
     width: 100%;
     padding: 80px;
+    
 }
 
 .newsletter .index-title {
@@ -462,6 +491,7 @@
 .newsletter .btn-w {
     width: 96px;
 }
+
 
 
 
