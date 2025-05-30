@@ -176,9 +176,15 @@
     margin: 80px auto;
 }
 
+.index-blog-title{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
 .swiper {
-    width: 90%;
-  }
+  width: 90%;
+}
+
   .swiper-button-prev::after,
   .swiper-button-next::after {
     display: none;
@@ -214,16 +220,16 @@
     justify-content: center;
     overflow: hidden;
   }
-  .swiper-button-prev {
-    left: -10px;
-  }
-  
-  .swiper-button-next {
-    right: 0;
-  }
-
+ 
   @media screen and (max-width: 768px) {
     .index-blog {
+        max-width: 100%;
+        margin: 64px auto;
+        margin-bottom: 140px;
+    }
+    
+    .index-blog-title{
+        max-width: 100%;
         margin: 0 auto;
     }
     .swiper {
@@ -234,31 +240,22 @@
       top: 100%;
       width: 44px;
       height: 44px;
-
+      margin-top: 12%;
     }
 
+
+    .swiper-wrapper-area {
+        overflow: visible;
+        height: auto;
+      }
+
       .swiper-button-prev {
-        left: 70%;
+        left: auto;
+        right: 18%;
       }
-      
-      .swiper-button-next {
-        right: 0;
-      }
-      
-    
 
   }
 
-@media screen and (max-width: 768px) {
-    .index-blog .blog {
-        max-width: 100%;
-    }
-
-    .index-blog {
-        padding: 65px 12px;
-    }
-
-}
 
 /*職涯諮詢成功案例*/
 .success-cases {
