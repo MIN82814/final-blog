@@ -11,6 +11,7 @@ a {
     text-decoration: none;
     display: inline-block;
     color: black;
+    cursor: pointer
 }
 
 .blue {
@@ -25,32 +26,7 @@ a {
     border-bottom: 1px solid black;
 }
 
-/*
-.fs-1 {
-    font-size: 16px;
-}
 
-.fs-2 {
-    font-size: 20px;
-}
-
-.fs-3 {
-    font-size: 24px;
-}
-
-.fs-4 {
-    font-size: 28px;
-}
-
-.fs-5 {
-    font-size: 64px;
-}
-
-.fs-6 {
-    font-size: clamp(3.25rem, 6vw, 7.5rem);
-}
-
-*/
 .fw-medium {
     font-weight: 500;
 }
@@ -111,9 +87,7 @@ a {
 
 @media screen and (max-width: 768px) {
 
-    /* .index-title {
-        font-size: 48px;
-    }*/
+
     .fs-64 {
         font-size: 48px;
     }
