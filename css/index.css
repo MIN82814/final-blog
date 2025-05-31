@@ -1,20 +1,20 @@
 /*自我介紹*/
 .about {
-    max-width: 1077px;
-    position: relative;
-    z-index: 1;
-    margin-left: 40%;
-    margin-right: 2%;
-    margin-top: -11%;
-    margin-bottom: 8%;
+display: flex;
+justify-content: center;
+   padding-right: 80px;
+   margin-top: -140px;
 }
 
 .about__desc {
     display: flex;
     justify-content: center;
     width: 100%;
+    max-width: 1077px;
     background: #FFFFFF;
-    padding: 3% 2.5%;
+    padding: 80px 40px;
+    margin-left: 350px;
+    
 
 }
 
@@ -25,21 +25,29 @@
     gap: 16px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .about {
-        width: 100%;
-        z-index: 1;
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: -50%;
-        padding: 0 12px;
-        padding-top: 6%;
+        padding: 0 30px;
+           margin: 0;
+        }
+        
+        .about__desc {
+            max-width: 100%;
+            padding: 40px 24px;
+            margin-left: 0;
+            margin-top: -160px;
+        
+        }
+        
+        .about__desc_content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 16px;
+        }
 
-    }
 
-    .about__desc {
-        padding: 40px 24px;
-    }
+
 }
 
 /*服務內容*/
@@ -427,21 +435,31 @@
 
 /*訂閱電子報*/
 .newsletter {
-    max-width: 1920px;
-    display: flex;
-
-}
-
-.newsletter-img img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    
+
+}
+.newsletter-warp{
+    display: flex;
+    justify-content: center;
 }
 
-.newsletter-img,
-.newsletter-content {
-    width: 50%;
+
+
+.newsletter-img
+ {
+    width: 100%;
+    max-width: 960px;
+    height: 834px;
+    background-image: url("../img/index/Hero Section.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-grow: 1;
+
 }
+
+
 
 .newsletter-content {
     background-image: url("../img/index/Hero Section2.png");
@@ -450,7 +468,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 172px 80px;
+    width: 100%;
+    height: 834px;
+    padding: 0 80px;
+max-width: 960px;
+flex-grow: 1;
 
 }
 
@@ -459,6 +481,8 @@
 .newsletter-card {
     background-color: #FFFFFF;
     width: 100%;
+    max-width: 800px;
+    margin: 172px 0;
     padding: 80px;
     
 }
@@ -474,8 +498,14 @@
     max-width: 640px;
     width: 100%;
     height: 46px;
-    border: none;
+    border: 0px ;
+    outline: none;
+    transition: border-color 0.3s ease;
 }
+.newsletter input:focus {
+    border: 1px solid #0027d5;
+
+  }
 
 .input-group {
     display: flex;

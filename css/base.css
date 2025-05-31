@@ -44,7 +44,7 @@ a {
 }
 
 .fs-120 {
-    font-size: clamp(3.25rem, 6vw, 7.5rem);
+    font-size: 120px;
 }
 
 .fs-64 {
@@ -85,6 +85,9 @@ a {
 }
 
 
+
+
+
 @media screen and (max-width: 768px) {
 
 
@@ -94,6 +97,9 @@ a {
 
     .fs-32 {
         font-size: 24px;
+    }
+    .fs-120 {
+        font-size: 52px;
     }
 
     .address-media li {

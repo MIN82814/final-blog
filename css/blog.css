@@ -1,37 +1,63 @@
+
+@media screen and (max-width:768px) 
+{
+.blog .header-content {
+    max-width: 100%;
+   padding: 24px;
+}}
+
+
+
 /*搜尋*/
 .blog-content {
     max-width: 1296px;
     margin: 80px auto;
-}
+  }
+  
+  .search-box {
+    width: 416px;
+    position: relative;
+  }
+  
+  .search-box-icon .bi-search {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #4b4b4b;
+    left: 16px;
+    font-size: 17px;
+  }
+  
+  .search-box input {
+    width: 100%;
+    padding: 16px 48px;
+    border: 1.5px solid #4b4b4b;
+    border-radius: 40px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .search-box input:focus {
+    border-color: #0027d5;
+  }
+  
+
 
 @media screen and (max-width:768px) {
     .blog-content {
         max-width: 100%;
         padding: 0 12px;
     }
-}
-
-.search-box {
-    width: 416px;
-    background-image: url("../img/icon/Vector.png");
-    background-size: 24px 24px;
-    background-repeat: no-repeat;
-    background-position: 16px center;
-    padding: 16px 48px;
-    border: 1px solid #4B4B4B;
-    border-radius: 40px;
-
-}
-
-@media screen and (max-width: 768px) {
-    .search {
-        text-align: center;
-    }
 
     .search-box {
         width: 351px;
-    }
+      }
 }
+
+
+
+
 
 
 /*blog文章*/
@@ -118,6 +144,7 @@
 }
 
 @media screen and (max-width:768px) {
+
     .card {
         gap: 40px 12px;
     }
