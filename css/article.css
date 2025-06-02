@@ -1,8 +1,10 @@
+/*內文外容器*/
 .blog-content-warp {
     max-width: 636px;
     margin: 0 auto;
     padding: 80px 0;
 }
+
 
 /*前言*/
 .blog-content-intro {
@@ -40,7 +42,7 @@
 @media screen and (max-width: 768px) {
     .blog-content-item ol {
         list-style: decimal;
-        padding-left: 1em;
+        padding-left: 1.5em;
     }
 }
 
@@ -62,7 +64,7 @@
 
     .li-disc {
         list-style: disc;
-        padding-left: 1em;
+        padding-left: 1.5em;
     }
 }
 
