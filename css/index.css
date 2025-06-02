@@ -141,7 +141,7 @@
     background-color: #ffffff00;
 }
 
-.cta-button-icon:hover {
+.cta:hover .cta-button-icon {
     border: 2px solid #0027D5;
 }
 
