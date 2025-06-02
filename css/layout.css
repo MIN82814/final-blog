@@ -24,14 +24,14 @@ nav ul a:hover {
     width: 100%;
 }
 
-.header-warp{
+.header-warp {
     display: flex;
     flex: 1;
     justify-content: center;
 }
 
 
-.header-img{
+.header-img {
     width: 100%;
     max-width: 960px;
     height: 834px;
@@ -50,7 +50,8 @@ nav ul a:hover {
     max-width: 960px;
     flex-grow: 1;
 }
-.header-text{
+
+.header-text {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -61,21 +62,23 @@ nav ul a:hover {
 
 @media screen and (max-width:1024px) {
 
-    .header-warp{
+    .header-warp {
         display: flex;
         flex-direction: column;
         flex: 1;
     }
-    .header-img{
+
+    .header-img {
         max-width: 100%;
         max-height: 375px;
     }
-    
+
     .header-content {
         max-width: 100%;
-       padding: 24px 24px 200px 24px;
+        padding: 24px 24px 200px 24px;
     }
-    .header-text{
+
+    .header-text {
         align-items: center;
         padding-left: 0;
     }
@@ -85,9 +88,10 @@ nav ul a:hover {
 
 /*banner區塊*/
 .banner {
-  width: 100%;
+    width: 100%;
 }
-.banner-warp{
+
+.banner-warp {
     display: flex;
     justify-content: center;
     flex: 1;
@@ -121,20 +125,23 @@ nav ul a:hover {
 
 
 @media screen and (max-width:768px) {
-    .banner-warp{
+    .banner-warp {
         flex-direction: column;
         flex: 1;
+        padding: 0 12px;
     }
+
     .banner-img {
         max-width: 100%;
         max-height: 375px;
         width: 100%;
     }
-    
-    
+
+
     .banner-content {
         max-height: 375px;
         max-width: 100%;
+        padding-left: 0;
         width: 100%;
 
     }

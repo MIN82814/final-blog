@@ -1,9 +1,9 @@
 /*自我介紹*/
 .about {
-display: flex;
-justify-content: center;
-   padding-right: 80px;
-   margin-top: -140px;
+    display: flex;
+    justify-content: center;
+    padding-right: 80px;
+    margin-top: -140px;
 }
 
 .about__desc {
@@ -14,7 +14,7 @@ justify-content: center;
     background: #FFFFFF;
     padding: 80px 40px;
     margin-left: 350px;
-    
+
 
 }
 
@@ -28,23 +28,23 @@ justify-content: center;
 @media screen and (max-width: 1024px) {
     .about {
         padding: 0 30px;
-           margin: 0;
-        }
-        
-        .about__desc {
-            max-width: 100%;
-            padding: 40px 24px;
-            margin-left: 0;
-            margin-top: -160px;
-        
-        }
-        
-        .about__desc_content {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            gap: 16px;
-        }
+        margin: 0;
+    }
+
+    .about__desc {
+        max-width: 100%;
+        padding: 40px 24px;
+        margin-left: 0;
+        margin-top: -160px;
+
+    }
+
+    .about__desc_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 16px;
+    }
 
 
 
@@ -72,7 +72,7 @@ justify-content: center;
 
 }
 
- .card_vector {
+.card_vector {
     position: relative;
     padding-top: 20px;
 }
@@ -184,27 +184,27 @@ justify-content: center;
     margin: 80px auto;
 }
 
-.index-blog-title{
+.index-blog-title {
     max-width: 1296px;
     margin: 0 auto;
 }
 
 .swiper {
-  width: 90%;
+    width: 90%;
 }
 
-  .swiper-button-prev::after,
-  .swiper-button-next::after {
+.swiper-button-prev::after,
+.swiper-button-next::after {
     display: none;
-  }
-  
-  .swiper-button-next i,
-  .swiper-button-prev i {
+}
+
+.swiper-button-next i,
+.swiper-button-prev i {
     font-size: 16px;
-  }
-  
-  .swiper-button-prev,
-  .swiper-button-next {
+}
+
+.swiper-button-prev,
+.swiper-button-next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -215,59 +215,62 @@ justify-content: center;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
-    color:#fff;
+    color: #fff;
     justify-content: center;
     cursor: pointer;
     z-index: 10;
-  }
-  
-  .swiper-wrapper-area {
+}
+
+.swiper-wrapper-area {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-  }
-  .swiper-button-prev {
-    left: 0; 
-  }
-  
- 
-  @media screen and (max-width: 768px) {
+}
+
+.swiper-button-prev {
+    left: 0;
+}
+
+
+@media screen and (max-width: 768px) {
     .index-blog {
         max-width: 100%;
         margin: 64px auto;
         margin-bottom: 140px;
         padding: 0 12px;
     }
-    
-    .index-blog-title{
+
+    .index-blog-title {
         max-width: 100%;
         margin: 0 auto;
     }
+
     .swiper {
         width: 100%;
-      }
+    }
+
     .swiper-button-prev,
     .swiper-button-next {
-      top: 100%;
-      width: 44px;
-      height: 44px;
-      margin-top: 12%;
+        top: 100%;
+        width: 44px;
+        height: 44px;
+        margin-top: 12%;
     }
 
 
     .swiper-wrapper-area {
         overflow: visible;
         height: auto;
-      }
+    }
 
-      .swiper-button-prev {
+    .swiper-button-prev {
         left: auto;
         right: 20%;
-      }
+    }
 
-  }
+}
 
 
 /*職涯諮詢成功案例*/
@@ -436,18 +439,18 @@ justify-content: center;
 /*訂閱電子報*/
 .newsletter {
     width: 100%;
-    
+
 
 }
-.newsletter-warp{
+
+.newsletter-warp {
     display: flex;
     justify-content: center;
 }
 
 
 
-.newsletter-img
- {
+.newsletter-img {
     width: 100%;
     max-width: 960px;
     height: 834px;
@@ -471,8 +474,8 @@ justify-content: center;
     width: 100%;
     height: 834px;
     padding: 0 80px;
-max-width: 960px;
-flex-grow: 1;
+    max-width: 960px;
+    flex-grow: 1;
 
 }
 
@@ -484,7 +487,7 @@ flex-grow: 1;
     max-width: 800px;
     margin: 172px 0;
     padding: 80px;
-    
+
 }
 
 .newsletter .index-title {
@@ -498,14 +501,15 @@ flex-grow: 1;
     max-width: 640px;
     width: 100%;
     height: 46px;
-    border: 0px ;
+    border: 0px;
     outline: none;
     transition: border-color 0.3s ease;
 }
+
 .newsletter input:focus {
     border: 1px solid #0027d5;
 
-  }
+}
 
 .input-group {
     display: flex;
@@ -528,21 +532,21 @@ flex-grow: 1;
 
 
 @media screen and (max-width:768px) {
-    .newsletter {
-        max-width:100%;
+    .newsletter-warp {
         display: flex;
         flex-direction: column;
-
     }
 
-    .newsletter-img,
+    .newsletter-img {
+        width: 100%;
+        height: 375px;
+    }
+
     .newsletter-content {
         width: 100%;
-    }
-
-    .newsletter-content {
         flex-direction: column;
         padding: 12px;
+        height: 440px;
     }
 
     .newsletter-card {
