@@ -118,8 +118,10 @@
     display: flex;
     justify-content: flex-end;
     margin: 32px auto;
-    align-items: center;
     gap: 8px;
+    color: #000000;
+    cursor: pointer;
+    align-items: center;
     transition: transform 0.3s ease;
 }
 
@@ -127,6 +129,22 @@
     color: #0027D5;
     transform: translate(20px, 0px);
 }
+
+.cta-button-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff00;
+}
+
+.cta-button-icon:hover {
+    border: 2px solid #0027D5;
+}
+
 
 
 @media screen and (max-width: 768px) {
