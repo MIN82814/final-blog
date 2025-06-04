@@ -44,7 +44,7 @@ a {
 }
 
 .fs-120 {
-    font-size: 120px;
+    font-size: calc(14px + (106 * ((100vw - 320px) / 1600)));
 }
 
 .fs-64 {
@@ -77,7 +77,7 @@ a {
 }
 
 .about-desc-fs p {
-    font-size: 28px;
+    font-size: calc(14px + (14 * ((100vw - 320px) / 1600)));
 }
 
 .mb-24 {
