@@ -151,6 +151,8 @@
 }
 
 @media screen and (max-width: 1024px) {
+
+
     .service-warp {
         padding: 0 12px;
     }
@@ -161,6 +163,11 @@
     .service-warp {
         margin: 64px auto;
         padding: 0 12px;
+    }
+
+    .service_img {
+        object-fit: cover;
+        width: 100%;
     }
 
     .service {
@@ -355,7 +362,7 @@
 .text-box {
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 40vw;
     gap: 24px;
     padding: 29px 0;
 }
@@ -363,8 +370,8 @@
 .text-card {
     background: #FFFFFF;
     padding: 15% 7.6%;
-    width: 38vw;
-    margin-left: -5vw;
+    width: 32vw;
+    margin-left: -10vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -377,7 +384,6 @@
     padding: 15% 7.6%;
     margin-left: 4.5%;
     margin-top: -9.5%;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -392,6 +398,28 @@
     .success-cases {
         margin: 64px 12px;
     }
+
+
+    .text-box {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        gap: 24px;
+        padding: 29px 0;
+    }
+
+    .text-card {
+        background: #FFFFFF;
+        padding: 15% 7.6%;
+        width: 45vw;
+        margin-left: -7vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+
+    }
+
 }
 
 
