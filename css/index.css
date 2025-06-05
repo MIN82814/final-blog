@@ -530,7 +530,7 @@
 
 .newsletter-img {
     width: 50%;
-    background-image: url("../img/index/Hero Section.png");
+    background-image: url("../img/index/photo9.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -675,13 +675,18 @@
     text-decoration: underline;
 }
 
+@media screen and (max-width:1024px) {
+
+    .address {
+        padding: 64px 12px;
+    }
+}
 
 
 @media screen and (max-width:768px) {
     .address {
         max-width: 100%;
         margin: 0 auto;
-        padding: 64px 12px;
     }
 
     .address li {
