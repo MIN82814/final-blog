@@ -559,8 +559,8 @@
     background-color: #FFFFFF;
     width: 100%;
     max-width: 800px;
-    margin: 172px 0;
-    padding: 80px;
+    padding: 8%;
+    max-height: 80vh;
 
 }
 
