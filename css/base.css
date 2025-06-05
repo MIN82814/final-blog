@@ -44,7 +44,7 @@ a {
 }
 
 .fs-120 {
-    font-size: calc(14px + (106 * ((100vw - 320px) / 1600)));
+    font-size: 120px;
 }
 
 .fs-64 {
@@ -88,7 +88,15 @@ a {
     margin-bottom: 12px;
 }
 
+@media screen and (max-width: 1024px) {
+    .fs-120 {
+        font-size: 100px;
+    }
 
+    .about-desc-fs p {
+        font-size: 24px;
+    }
+}
 
 @media screen and (max-width: 768px) {
 
@@ -109,7 +117,4 @@ a {
         font-size: 24px;
     }
 
-    .about-desc-fs p {
-        font-size: 24px;
-    }
 }

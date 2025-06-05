@@ -259,10 +259,10 @@
                                 <h2 class="fs-24 fw-bold title">轉職迷茫到明確學習規劃</h2>
                                 <ul class="success-stories-text">
                                     <li>
-                                        <img src="img/icon/check-square-fill 1.png" alt="">
+                                        <img src="img/icon/check-square-fill 1.png" alt="check">
                                         <span>制訂階段性目標與時間安排</span>
                                     </li>
-                                    <li><img src="img/icon/check-square-fill 1.png" alt="">
+                                    <li><img src="img/icon/check-square-fill 1.png" alt="check">
                                         <span>鼓勵參與前端社群或活動</span>
                                     </li>
                                 </ul>
@@ -276,10 +276,10 @@
                                 <h2 class="fs-24 fw-bold title">面試緊張到從容應對</h2>
                                 <ul class="success-stories-text">
                                     <li>
-                                        <img src="img/icon/check-square-fill 1.png" alt="">
+                                        <img src="img/icon/check-square-fill 1.png" alt="check">
                                         <span>透過面試模擬找出常犯的邏輯漏洞</span>
                                     </li>
-                                    <li><img src="img/icon/check-square-fill 1.png" alt="">
+                                    <li><img src="img/icon/check-square-fill 1.png" alt="check">
                                         <span>討論遇到不熟悉議題時的回應方式</span>
                                     </li>
                                 </ul>
@@ -293,10 +293,10 @@
                                 <h2 class="fs-24 fw-bold title">面試緊張到從容應對</h2>
                                 <ul class="success-stories-text">
                                     <li>
-                                        <img src="img/icon/check-square-fill 1.png" alt="">
+                                        <img src="img/icon/check-square-fill 1.png" alt="check">
                                         <span>擬定進階框架或技術研究目標</span>
                                     </li>
-                                    <li><img src="img/icon/check-square-fill 1.png" alt="">
+                                    <li><img src="img/icon/check-square-fill 1.png" alt="check">
                                         <span>培養跨團隊溝通與簡報能力</span>
                                     </li>
                                 </ul>
@@ -428,25 +428,29 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        new Swiper('.swiper', {
-            spaceBetween: 24,
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            grid: {
-                rows: 1,
-                fill: 'row'
-            },
-            slidesPerView: 1,
-            breakpoints: {
-                768: {
-                    slidesPerView: 3,
-                    spaceBetween: 24
-                },
+      new Swiper('.swiper', {
+    spaceBetween: 24,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    grid: {
+        rows: 1,
+        fill: 'row'
+    },
+    slidesPerView: 1, // 預設：小於 768px
 
-            }
-        });
+    breakpoints: {
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 24
+        },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 24
+        }
+    }
+});
     </script>
 </body>
 </html>
